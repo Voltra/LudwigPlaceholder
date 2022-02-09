@@ -1,0 +1,50 @@
+* {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-display: swap;
+}
+
+:root {
+    --primary: #0087b3;
+    --secondary: #006181;
+    --ternary: #09c6d6;
+}
+
+html {
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--primary);
+    background: radial-gradient(var(--secondary), var(--primary), var(--ternary));
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 800;
+}
+
+img {
+    display: block;
+
+    width: clamp(100px, 95%, 400px);
+    height: auto;
+    margin: 40px auto;
+
+    border-radius: 16px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}

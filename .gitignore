@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+logs/
+cache/
+tmp/
+.brackets.json
+*.log
+*.tmp
+*.swp
+.DS_Store
+.env
